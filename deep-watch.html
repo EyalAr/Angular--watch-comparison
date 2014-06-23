@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+    <body ng-app="boxesApp">
+        <div ng-controller="boxesCtrl" class="container">
+            <div class="boxes-container" bx-boxes bx-model="boxes"></div>
+            <div class="rate">{{rate}} boxes/sec</div>
+        </div>
+        <script type="text/javascript" src="libs/angular.min.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/boxesCtrl.js"></script>
+        <script type="text/javascript" src="scripts/bxBoxesDeepWatch.js"></script>
+    </body>
+</html>
