@@ -3,6 +3,7 @@
 For my [$watch Carefully](http://eyalarubas.com/watch-carefully.html) post.
 
 0. [Basic example](http://eyalar.github.io/Angular--watch-comparison/basics.html)
+0. [Shallow watch example](http://eyalar.github.io/Angular--watch-comparison/shallow-watch.html)
 0. [Deep watch example](http://eyalar.github.io/Angular--watch-comparison/deep-watch.html)
 0. [watchCollection example](http://eyalar.github.io/Angular--watch-comparison/watch-collection.html)
 
