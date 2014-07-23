@@ -22,7 +22,7 @@ angular.module('boxesApp').controller('boxesCtrl', function($scope, $interval) {
     $interval(function() {
         toggleActive($scope.boxes[i], i);
         toggleActive($scope.boxes[i - 1 < 0 ? n - 1 : i - 1], i - 1 < 0 ? n - 1 : i - 1);
-        $scope.rate = Math.round(1000 / (Date.now() - time));
+        $scope.time = Date.now() - time;
         time = Date.now();
         i = (i + 1) % n
     }, speed);
