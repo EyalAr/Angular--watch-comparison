@@ -1,11 +1,11 @@
 # Performance comparison between different AngularJS's $watch types
 
-For my [$watch Carefully](http://eyalarubas.com/watch-carefully.html) post.
+For my talk on the same subject (slides included in this repo).
 
 0. [Basic example](http://eyalar.github.io/Angular--watch-comparison/basics.html)
 0. [Shallow watch example](http://eyalar.github.io/Angular--watch-comparison/shallow-watch.html)
 0. [Deep watch example](http://eyalar.github.io/Angular--watch-comparison/deep-watch.html)
 0. [watchCollection example](http://eyalar.github.io/Angular--watch-comparison/watch-collection.html)
 
-The last two examples only differ in the watch method used in the `bxBoxes`
+The last three examples only differ in the watch method used in the `bxBoxes`
 directive. Notice the huge performance difference.
