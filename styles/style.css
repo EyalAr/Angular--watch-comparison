@@ -5,27 +5,50 @@ html, body {
     padding: 0;
 }
 .container{
-    position: relative;
-    padding: 0;
-    width: 33.33%;
-    height: 33.33%;
-    top: 33.33%;
-    left: 33.33%;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.container>div{
+    display: table-row;
+}
+.container>div>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.container>div>div>div{
+    width: 25%;
+    margin: 0 auto;
 }
 .boxes-container{
     width: 100%;
-    height: 100%;
+    height: 300px;
+}
+.controls{
+    text-align: center;
 }
 .box {
     width: 5%;
     height: 5%;
     float: left;
 }
-.box.active{
+.box.opened{
     background: black !important;
 }
-.rate{
+.time{
     color: #999;
     font-family: monospace;
     font-size: 1.5em;
+}
+.color-btn{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 100px;
+    border: 1px transparent solid;
+    cursor: pointer;
+}
+.color-btn.opened{
+    border: 1px black solid;
 }

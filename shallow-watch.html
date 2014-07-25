@@ -5,11 +5,23 @@
     </head>
     <body ng-app="boxesApp">
         <div ng-controller="boxesCtrl" class="container">
-            <div class="boxes-container" bx-boxes bx-model="boxes"></div>
+            <div>
+                <div>
+                    <div>
+                        <div class="controls" bx-controls="colors"></div>
+                        <div class="boxes-container" bx-boxes="boxes"></div>
+                        <div class="time">
+                            <span ng-show="time">Button click responded in {{time}}ms</span>
+                            <span ng-hide="time">Please click a button at the top</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <script type="text/javascript" src="libs/angular.min.js"></script>
         <script type="text/javascript" src="scripts/app.js"></script>
         <script type="text/javascript" src="scripts/boxesCtrl.js"></script>
+        <script type="text/javascript" src="scripts/bxControls.js"></script>
         <script type="text/javascript" src="scripts/bxBoxesShallowWatch.js"></script>
     </body>
 </html>

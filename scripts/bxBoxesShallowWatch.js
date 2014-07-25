@@ -1,7 +1,7 @@
 angular.module('boxesApp').directive('bxBoxes', function() {
     return {
         scope: {
-            boxes: '=bxModel'
+            boxes: '=bxBoxes'
         },
         link: function(scope, el, attrs) {
             scope.boxEls = [];
@@ -16,8 +16,8 @@ angular.module('boxesApp').directive('bxBoxes', function() {
             });
             scope.$watch('boxes', function(boxes) {
                 boxes && scope.boxEls.forEach(function(boxEl, i) {
-                    if (boxes[i].active) boxEl.addClass('active');
-                    else boxEl.removeClass('active');
+                    if (boxes[i].opened) boxEl.addClass('opened');
+                    else boxEl.removeClass('opened');
                 });
             });
         },
