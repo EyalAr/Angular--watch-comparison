@@ -26,6 +26,7 @@ html, body {
 }
 .controls{
     text-align: center;
+    margin: 10px 0;
 }
 .box {
     width: 5%;
@@ -43,7 +44,6 @@ html, body {
 .color-btn{
     width: 20px;
     height: 20px;
-    margin-bottom: 10px;
     display: inline-block;
     border-radius: 100px;
     border: 1px transparent solid;
