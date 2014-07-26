@@ -1,6 +1,6 @@
 angular.module('boxesApp').controller('boxesCtrl', function($rootScope, $scope) {
     var n = 20 * 20, // 20 rows, 20 cols
-        dataSize = 1000,
+        dataSize = 1500,
         colors = ['#ff8080', '#ff80ac', '#ff80dd', '#f280ff', '#ca80ff', '#9b80ff', '#8086ff', '#80a6ff', '#80ccff', '#80e8ff', '#80ffe3', '#80ffc6', '#80ffaa', '#95ff80', '#b9ff80', '#e3ff80', '#fff480', '#ffd080', '#ffaa80', '#ff8c80'];
 
     // generate boxes
