@@ -1,4 +1,4 @@
-angular.module('boxesApp').directive('bxBoxes', function($rootScope) {
+angular.module('boxesApp').directive('bxBoxes', function() {
     return {
         scope: {
             boxes: '=bxBoxes'
